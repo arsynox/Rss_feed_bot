@@ -1,7 +1,7 @@
 from telegram import Bot
 
 # Configuration
-BOT_TOKEN = "8191342640:AAG0Y5dyj_Hyoe4Lcg5b4LOyPlukO5Aq2P4"
+BOT_TOKEN = "8191342640:AAGaRoFTvc-04jhFW01VCEVNM05rBOyNYfE"
 CHAT_ID = "-100267786434"
 
 # Initialize Telegram bot
