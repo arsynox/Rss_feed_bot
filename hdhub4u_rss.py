@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
+from config import bot, CHAT_ID, downloaded_items_tg
 
 def fetch_hdhub4u_updates():
     url = 'https://hdhub4u.football/'
