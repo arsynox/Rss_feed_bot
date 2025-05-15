@@ -45,7 +45,7 @@ def fetch_and_post_hdhub4u_feeds():
 def send_to_telegram(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     payload = {
-        'chat_id': TELEGRAM_CHAT_ID,
+        'chat_id': CHAT_ID,
         'text': message,
         'disable_web_page_preview': True
     }
